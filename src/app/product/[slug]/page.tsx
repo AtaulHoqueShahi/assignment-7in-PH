@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import { headers } from "next/headers";
-import { auth } from "@/app/lib/auth";
+import { auth } from "@/lib/auth";
 import { Suspense } from "react";
 
 type MarketPrice = {

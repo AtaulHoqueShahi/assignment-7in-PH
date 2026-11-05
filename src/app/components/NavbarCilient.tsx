@@ -11,7 +11,7 @@ import {
   LogOut,
   ChevronDown,
 } from "lucide-react";
-import { authClient } from "@/app/lib/auth-cilent";
+import { authClient } from "@/lib/auth-cilent";
 import { toast } from "react-hot-toast";
 import type { ApiProduct } from "./Navbar";
 
