@@ -1,3 +1,5 @@
+
+# বাজার দর (BazarDor)
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +36,48 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+বাংলাদেশের নিত্যপ্রয়োজনীয় পণ্যের বাজারদর, দাম পরিবর্তন এবং বাজারভিত্তিক দামের তথ্য এক জায়গায় দেখার responsive web app.
+
+## লিংক
+
+- **Live site:**
+- **GitHub:** 
+
+## প্রধান ফিচার
+
+1. API থেকে পণ্যের বর্তমান দাম ও আগের দিনের পরিবর্তন দেখা।
+2. দাম বাড়া/কমা পণ্য, সব পণ্যের তালিকা এবং scrolling price ticker।
+3. ক্যাটাগরি অনুযায়ী পণ্য দেখা এবং বাংলা সংখ্যা সমর্থিত দাম sorting।
+4. পণ্যের সর্বনিম্ন, সর্বোচ্চ, গড় ও বাজারভিত্তিক দাম দেখা।
+5. Better Auth দিয়ে email/password, Google ও GitHub sign-in।
+6. Login-protected product details এবং profile name update।
+7. Mobile, tablet ও desktop-এর জন্য responsive layout।
+
+## প্রযুক্তি
+
+Next.js App Router, React, TypeScript, Tailwind CSS, DaisyUI, Better Auth, MongoDB, react-hot-toast, Lucide React।
+
+
+
+```
+
+তারপর development server চালাও:
+
+```bash
+npm run dev
+```
+
+
+
+Google ও GitHub OAuth settings-এ callback URL হিসেবে যোগ করো:
+
+- Local: `http://localhost:3000/api/auth/callback/google` এবং `http://localhost:3000/api/auth/callback/github`
+
+## API
+
+পণ্যের data BazarDor API থেকে আসে: `https://openapi.programming-hero.com/api/bazardor`। বিকল্প API endpoint-গুলো environment variables দিয়ে configure করা যায়।
+
+## লেখক
+
+Ataul Hoque Shahi — [GitHub](https://github.com/AtaulHoqueShahi)
