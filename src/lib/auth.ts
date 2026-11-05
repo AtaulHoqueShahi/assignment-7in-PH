@@ -29,8 +29,7 @@ if (!baseURL) {
 // Trusted Origins
 const trustedOrigins = [
   baseURL,
-  "https://b14-a7-bazar-dor-mc5w-7qb6g2p9l-ahshahi84-9420.vercel.app",
-  "https://bazar-dor.vercel.app",
+ "https://assignment-7in-ph.vercel.app",
   "http://localhost:3000",
   ...(process.env.BETTER_AUTH_TRUSTED_ORIGINS?.split(",") ?? []),
 ]

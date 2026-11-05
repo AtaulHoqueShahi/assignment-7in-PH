@@ -93,7 +93,7 @@ async function getProducts(): Promise<Product[]> {
         markets: item.markets || [],
       }));
     } catch {
-      // Try the next API provider when this one is unavailable or prerendering ends.
+  
     }
   }
 
